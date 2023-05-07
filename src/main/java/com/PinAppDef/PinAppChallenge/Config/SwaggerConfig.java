@@ -1,4 +1,4 @@
-package com.PinAppDef.PinAppChallenge.config;
+package com.PinAppDef.PinAppChallenge.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -11,7 +11,7 @@
 	<artifactId>PinAppChallenge</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
-	<name>demoSwagger</name>
+	<name>Api</name>
 	<description>PinAppChallenge.</description>
 	<properties>
 		<java.version>17</java.version>
