@@ -23,5 +23,5 @@ public class SwaggerConfig {
 	}
 }
 
-	//Link a la documentación con Swagger: http://localhost:8080/swagger-ui/index.html//
+	//Link a la documentación con Swagger: https://pinappchallenge.up.railway.app/swagger-ui/index.html/
 

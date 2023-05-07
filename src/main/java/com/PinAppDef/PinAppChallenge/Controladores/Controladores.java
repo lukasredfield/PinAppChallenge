@@ -25,8 +25,8 @@ public class Controladores {
     private Repositorio clienteRepositorio;
 
     @GetMapping(value = "/")
-    public String holamundo(){
-        return "Hola Mundo!";
+    public String PinAappChallenge(){
+        return "API de Clientes (PinApp)!";
     }
 
 
