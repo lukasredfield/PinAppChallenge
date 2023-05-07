@@ -13,14 +13,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-
 	@Bean
-	Docket api() {
-		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.withClassAnnotation(RestController.class)).paths(PathSelectors.any())
+	public Docket api() {
+		return new Docket(DocumentationType.SWAGGER_2)
+				.select()
+				.apis(RequestHandlerSelectors.basePackage("com.PinAppDef.PinAppChallenge.Controladores"))
+				.paths(PathSelectors.any())
 				.build();
 	}
+}
 
 	//Link a la documentación con Swagger: http://localhost:8080/swagger-ui/index.html//
 
-}
